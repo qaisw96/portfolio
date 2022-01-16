@@ -1,0 +1,40 @@
+.services {
+  margin-top: 40px;
+}
+
+.services .icon {
+  font-size: 25px;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+  gap: 15px;
+  padding: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.3s;
+}
+.card:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+  border: 2px dashed var(--primary-color);
+}
+
+.service-icon {
+  font-size: 30px;
+}
+
+@media (max-width: 567px) {
+  .cards {
+    justify-content: center;
+  }
+}

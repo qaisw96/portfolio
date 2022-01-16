@@ -1,0 +1,13 @@
+.footer {
+  margin-top: 50px;
+  /* height: 60px; */
+  background-color: var(--primary-color);
+}
+
+.footer .icon {
+  color: white;
+}
+
+.footer .icon:hover {
+  color: black;
+}

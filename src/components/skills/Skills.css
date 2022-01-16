@@ -1,0 +1,55 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.skill-name {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.skill-progress {
+  width: 50%;
+  height: 12px;
+  background-color: rgba(211, 195, 195, 0.452);
+  display: flex;
+  align-items: center;
+}
+
+.skill-percent {
+  height: 10px;
+  background-color: var(--primary-color);
+  animation: skill-progress 6s 1s;
+}
+
+.skill-icon {
+  font-size: 35px;
+}
+
+@media (max-width: 567px) {
+  .skill-name {
+    font-size: 15px;
+  }
+
+  .skill-icon {
+    font-size: 25px;
+  }
+}
+
+@keyframes skill-progress {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: attr(data-content);
+  }
+}
