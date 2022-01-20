@@ -12,12 +12,12 @@ const Hero = () => {
           <VscCode className='code-icon' />
         ))}
       </div>
-      <div className='me'>
+      <div className='me-container'>
         <div className='line-1'></div>
         <div className='line-2'></div>
-        <div className='m'>
-          <h3>Qais Ata</h3>
-          <p>Frontend Developer</p>
+        <div className='me'>
+          <h3 className='my-name'>Qais Ata</h3>
+          <p className='position'>Frontend Developer</p>
           <SiFrontendmentor className='icon' />
         </div>
       </div>

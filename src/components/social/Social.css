@@ -11,5 +11,5 @@
 
 .icon:hover {
   cursor: pointer;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }

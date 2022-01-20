@@ -6,13 +6,18 @@
 }
 
 :root {
-  --primary-color: #9fa0ff;
-  --secondary-color: #e0c3fc;
+  --primary-color: #3474e6;
+  --secondary-color: #4e4b5c;
+  --third-color: #9fa0ff;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.flex {
+  display: flex;
 }
 
 .section {
