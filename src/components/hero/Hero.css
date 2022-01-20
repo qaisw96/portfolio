@@ -90,6 +90,14 @@
   .m {
     padding: 13px 30px;
   }
+
+  .hero {
+    height: 350px;
+  }
+
+  .hero-container {
+    height: 360px;
+  }
 }
 
 @keyframes up-down {
